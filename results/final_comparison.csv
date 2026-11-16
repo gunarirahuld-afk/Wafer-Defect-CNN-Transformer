@@ -1,0 +1,5 @@
+Model,Runs,Params (M),Size (MB),Accuracy,Macro F1,Inference (ms/wafer)
+ResNet18,1,11.18,134.41,0.9461,0.9215,5.04
+ViT,1,0.56,7.03,0.8971,0.8470,2.91
+Baseline CNN,3,1.21,14.61,0.9459 ± 0.0029,0.9211 ± 0.0063,3.61
+Hybrid CNN Transformer,3,0.56,6.98,0.9448 ± 0.0017,0.9206 ± 0.0019,3.75
